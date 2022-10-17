@@ -1,7 +1,7 @@
 # face detection
 
 import cv2
-faceCascade=cv2.CascadeClassifier('haarcascade_frontalface_alt.xml') # Copy Relative Path from haarcascade_frontalface_alt.xml
+faceCascade=cv2.CascadeClassifier('haarcascade_frontalface_alt.xml') # Copy Relative Path
 
 def draw_face(img,faceCascade,scaleFactor,minNeighbers,color,text):
     gray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
